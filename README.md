@@ -7,11 +7,7 @@
 [Instructions](https://github.com/kikipunk/SoulShard-DataPack/wiki/Installation)
 
 ### Downloads
-Now on curseforge! [https://minecraft.curseforge.com/projects/soulshard-datapack](https://minecraft.curseforge.com/projects/soulshard-datapack)
+Now on curseforge! [https://minecraft.curseforge.com/projects/statue-datapack](https://minecraft.curseforge.com/projects/soulshard-datapack)
 
 ### Credit
 By Kikipunk and Daminator4113
-
-Help mathaym25
-
-Based on SoulShard Mod by ShadwDrgn
