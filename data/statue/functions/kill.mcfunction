@@ -4,8 +4,7 @@ execute if entity @s[type=minecraft:wither_skeleton] run summon minecraft:item ~
 execute if entity @s[type=minecraft:zombie] run summon minecraft:item ~ ~1.5 ~ {Item:{id:"zombie_head",Count:1b}}
 execute if entity @s[type=minecraft:ender_dragon] run summon minecraft:item ~ ~1.7 ~ {Item:{id:"dragon_head",Count:1b}}
 
-execute if score CheckVersion statuerand matches 13 run function statue:kill13
-execute if score CheckVersion statuerand matches 14 run function statue:kill14
+function statue:kill2
 
 team leave @s
 summon minecraft:item ~ ~ ~ {Item:{id:"armor_stand",Count:1b}}
