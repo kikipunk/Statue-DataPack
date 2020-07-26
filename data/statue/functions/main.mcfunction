@@ -43,3 +43,5 @@ execute as @e[type=shulker,tag=StatuePassengers,nbt=!{Peek:12b}] at @s if entity
 execute as @e[type=shulker,tag=StatuePassengers,nbt=!{Peek:13b}] at @s if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:green_dye",Count:1b}}] run data merge entity @s {Color:13b}
 execute as @e[type=shulker,tag=StatuePassengers,nbt=!{Peek:14b}] at @s if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:red_dye",Count:1b}}] run data merge entity @s {Color:14b}
 execute as @e[type=shulker,tag=StatuePassengers,nbt=!{Peek:15b}] at @s if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:black_dye",Count:1b}}] run data merge entity @s {Color:15b}
+
+execute as @e[tag=Statue,type=creeper,nbt={ignited:1b},tag=!Ignite_On] at @s run function statue:creeper_death

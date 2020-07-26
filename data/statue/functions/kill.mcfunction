@@ -1,5 +1,5 @@
 execute if entity @s[type=minecraft:skeleton] run summon minecraft:item ~ ~1.5 ~ {Item:{id:"skeleton_skull",Count:1b}}
-execute if entity @s[type=minecraft:creeper,nbt={ExplosionRadius:5b}] run summon minecraft:item ~ ~1.1 ~ {Item:{id:"creeper_head",Count:1b}}
+execute if entity @s[type=minecraft:creeper,tag=Statue_creeper] run summon minecraft:item ~ ~1.1 ~ {Item:{id:"creeper_head",Count:1b}}
 execute if entity @s[type=minecraft:wither_skeleton] run summon minecraft:item ~ ~1.7 ~ {Item:{id:"wither_skeleton_skull",Count:1b}}
 execute if entity @s[type=minecraft:zombie] run summon minecraft:item ~ ~1.5 ~ {Item:{id:"zombie_head",Count:1b}}
 execute if entity @s[type=minecraft:ender_dragon] run summon minecraft:item ~ ~1.7 ~ {Item:{id:"dragon_head",Count:1b}}
